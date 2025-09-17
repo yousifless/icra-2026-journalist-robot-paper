@@ -1,0 +1,80 @@
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.bcf
+*.run.xml
+*.nav
+*.snm
+*.vrb
+*.lof
+*.lot
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.loa
+*.lol
+*.maf
+*.mtc
+*.mtc0
+*.slf
+*.slt
+*.stc
+*.thm
+*.xdy
+
+# LaTeX build directories
+*.auxlock
+*.synctex(busy)
+*.pdfsync
+
+# Keep important LaTeX files but ignore build artifacts
+!*.tex
+!*.bib
+!*.cls
+!*.bst
+!*.sty
+!*.png
+!*.jpg
+!*.jpeg
+!*.pdf
+!*.svg
+!*.eps
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Executable files (installers)
+*.exe
+*.msi
+*.dmg
+*.pkg
