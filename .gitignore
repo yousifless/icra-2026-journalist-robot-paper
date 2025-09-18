@@ -44,12 +44,17 @@
 !*.cls
 !*.bst
 !*.sty
-!*.png
-!*.jpg
-!*.jpeg
 !*.pdf
 !*.svg
 !*.eps
+
+# Ignore large image files to avoid GitHub warnings
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
 
 # OS generated files
 .DS_Store
